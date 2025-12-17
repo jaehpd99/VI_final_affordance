@@ -22,6 +22,7 @@ zero-shot 예측부터 학습 가능한 분류기 및 추가적인 구조적 정
 원본 이미지 데이터는 포함하지 않는다.
 제외된 파일은 ()로 표시
 
+## 2. Project Structure
 ### Included Annotation Files
 ```text
 train_pairs_verb117.jsonl
@@ -30,7 +31,6 @@ test_pairs_verb117.jsonl
 test_pairs_verb117_meta.json
 
 
-## 2. Project Structure
 .
 ├─ train_pairs_verb117.jsonl          # train human–object pair + 117 verb 레이블
 ├─ (train_pairs_verb117_objcls.jsonl   # train pair + object class 정보)
