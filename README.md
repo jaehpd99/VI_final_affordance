@@ -180,6 +180,9 @@ Exp3는 Exp2 구조에 두 가지 핵심 정보를 추가한 최종 모델이다
 ## 5. Affordance Visualization
 
 Exp3 모델의 예측 결과를 이미지 상에 시각적으로 표현한다.
+<img width="640" height="425" alt="HICO_test2015_00003045_exp3" src="https://github.com/user-attachments/assets/762a4d5d-d73d-44ca-a080-8ee017b2f622" />
+<img width="640" height="506" alt="HICO_test2015_00004207_exp3" src="https://github.com/user-attachments/assets/ea15eba8-6bcd-4a68-a12d-69786fbe019c" />
+<img width="640" height="480" alt="HICO_test2015_00006077_exp3" src="https://github.com/user-attachments/assets/569ca667-b6d1-43fd-ab9d-22f755dad17a" />
 
 ## 6. Conclusion
 
