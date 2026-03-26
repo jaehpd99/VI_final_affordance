@@ -185,8 +185,10 @@ Exp3 모델의 예측 결과를 이미지 상에 시각적으로 표현한다.
 
 - Zero-shot VLM은 기본적인 affordance 추론 가능성을 보였으나 성능 한계 존재
 
-- VLM feature 기반 학습 head를 통해 성능이 크게 향상됨
-- Geometry 정보는 affordance 예측에 매우 효과적이며, 특히 Rare class 성능을 크게 개선함
+- VLM feature 기반 학습 head를 통해 성능이 크게 향상
+- Geometry 정보는 affordance 예측에 매우 효과적이며, 특히 Rare class 성능을 크게 개선
 - Text prior는 전반적인 성능을 소폭이지만 일관되게 향상시킴
-- Geometry 및 Text prior를 추가한 Exp3 모델이 가장 우수한 성능을 달성함
-- Affordance 예측에서 시각 정보 + 구조적 관계 + 의미적 prior의 결합이 중요함을 확인하였다
+- Geometry 및 Text prior를 추가한 Exp3 모델이 가장 우수한 성능을 달성
+- Recall이 매우 높고 mAP가 상대적으로 낮은 현상은 모델이 과도하게 Positive 예측을 하고 있다는 신호일 수 있음, 향후에는 Asymmetric Cross Entropy 등 Loss Function을 정교하게 설계하여 Precision을 높이는 방향으로 연구를 발전하면 좋을 것 같음
+- 기존 연구와의 차별점을 나타내기 위해 Evaluation에 비교군, 지표 추가 필요
+- Affordance 예측에서 시각 정보 + 구조적 관계 + 의미적 prior의 결합이 중요함을 확인
